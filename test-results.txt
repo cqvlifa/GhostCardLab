@@ -1,0 +1,18 @@
+PASS short APDU
+PASS selection required
+PASS signed debit and receipt
+PASS same session replay rejected
+PASS transaction ID replay rejected
+PASS tampered MAC
+PASS one unit limit
+PASS negative amount
+PASS disconnect invalidates challenge
+PASS unknown instruction
+PASS foreign AID
+PASS tampered receipt
+PASS insufficient funds
+PASS invalid length
+14 protocol checks passed; NFC hardware NOT tested.
+
+Android build: NOT RUN (SDK/Gradle unavailable).
+Physical NFC: NOT RUN.

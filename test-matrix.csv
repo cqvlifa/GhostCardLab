@@ -1,0 +1,9 @@
+reader,card,scenario,expected,observed,status
+Pixel 7,Second Android,1 simulated GEL debit,Balance 10 to 9 and valid receipt,,NOT RUN
+Second Android,Pixel 7,Reversed roles,Valid receipt,,NOT RUN
+Pixel 7,Second Android,Different shared key,6982 no debit,,NOT RUN
+Pixel 7,Second Android,Insufficient balance,6A84 no debit,,NOT RUN
+Pixel 7,Second Android,Disconnect before debit,No debit,,NOT RUN
+Pixel 7,Second Android,Disconnect during debit,Unknown outcome inspect card ledger,,NOT RUN
+Pixel 7,Second Android,App restart,Balance counter and IDs persist,,NOT RUN
+Custom ISO-DEP reader,Android HCE,Private AID and matching APDUs,Valid signed receipt,,NOT RUN
